@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('imagenes/flores.jpg.jpg'); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Ajusta la imagen para que cubra toda la página */
+    background-position: center;
+    background-attachment: fixed; /* La imagen de fondo permanece fija al hacer scroll */
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background-color: rgba(255, 204, 203, 0.8); /* Fondo semitransparente para que se vea el texto */
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    color: #ff4081;
+}
+
+header h2 {
+    margin: 2;
+    color: #ff4081;
+}
+
+header h3 {
+    margin: 2;
+
+}
+
+.photos {
+    margin: 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery img {
+    width: 32%;
+    height: auto;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.message p {
+    font-size: 1.2em;
+    color: #555;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente para que resalte el texto */
+    padding: 20px;
+    border-radius: 15px;
+}
+
+footer {
+    margin-top: 30px;
+    background-color: rgba(255, 204, 203, 0.8);
+    padding: 10px;
+    color: #777;
+}
